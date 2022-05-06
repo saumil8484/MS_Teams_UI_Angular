@@ -1,0 +1,63 @@
+.wrapper .mainComponent
+{
+    padding: 20px 0;
+    margin-left: 377px;
+}
+
+#secondaryNavbar
+{
+    float: left;
+}
+
+.secondaryNavbarContains
+{
+    margin-left: 10px;
+    font-size: small;
+    text-decoration: none;
+    color: black;
+}
+
+#heading
+{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: larger;
+}
+
+hr 
+{
+	border-top: 1px dotted #80007E;
+}
+
+#inputText
+{
+    margin: 400px 0px 0px 180px;
+    width: 612px;
+    border:  #80007E;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+}
+
+#alignbuttons
+{
+    margin-left: 180px;
+}
+
+.buttons
+{
+    border-style: hidden;
+    background-color:   rgb(231, 231, 245);
+    color: dimgray;
+}
+
+.buttons :hover
+{
+    color: black;
+}
+
+#sendButton
+{
+    margin-left: 310px;
+}

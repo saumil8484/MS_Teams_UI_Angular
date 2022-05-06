@@ -1,0 +1,55 @@
+.wrapper .sidebar{
+    background: whitesmoke;
+    position: fixed;
+    top: 54px;
+    left: 67px;
+    width: 309px;
+    height: 100%;
+    padding: 20px 0;
+    /*box-shadow: 1px 0px rgb(218, 205, 240);*/
+}
+
+.sidebar a
+{
+    text-decoration: none;
+    color: dimgray;
+}
+
+.sidebar a:hover 
+{
+    color: black;
+    font-weight: 500;
+}
+
+#secondaryNavbar
+{
+    color: black;
+}
+
+#heading
+{
+    margin-top: 3px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: larger;
+}
+
+hr 
+{
+	border-top: 1px dotted #80007E;
+}
+
+#smallLabel
+{
+    font-size: smaller;
+}
+
+.teamsList
+{
+    margin-left: 10px;
+}
+
+.subList
+{
+    margin-left: 10px;
+}

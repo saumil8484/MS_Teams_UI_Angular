@@ -1,0 +1,17 @@
+.topbar
+{
+    background-color: rgb(83, 53, 192);
+}
+
+#search
+{
+    margin: auto;
+    width: 45%;
+}
+
+#icon
+{
+    margin-right: 10px;
+    font-weight: 200;
+    color: white;
+}
