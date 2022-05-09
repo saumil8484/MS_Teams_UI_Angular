@@ -31,7 +31,7 @@ hr
 
 #inputText
 {
-    margin: 400px 0px 0px 180px;
+    margin: 128px 0px 0px 180px;
     width: 612px;
     border:  #80007E;
     border-top-style: hidden;
@@ -54,10 +54,37 @@ hr
 
 .buttons :hover
 {
-    color: black;
+    color: #80007E;
 }
 
 #sendButton
 {
     margin-left: 310px;
+}
+
+.boldMessage
+{
+    font-weight: 700;
+    margin-left: 360px;
+}
+
+.welcomeMessage
+{
+    margin-left: 330px;
+}
+
+#welcomeImage
+{
+    margin-left: 230px;
+}
+
+#welcomeButton
+{
+    margin-left: 240px;
+    font-size: small;
+}
+
+#welcomeButton1
+{
+    font-size: small;
 }

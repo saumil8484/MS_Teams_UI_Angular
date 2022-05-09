@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { TeamsListService } from '../teams-list.service'
+
 
 @Component({
   selector: 'app-side-bar2',
@@ -7,9 +10,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SideBar2Component implements OnInit {
 
-  constructor() { }
+  teamsList !: any;
+  constructor(private router : Router, private list : TeamsListService) { }
 
   ngOnInit(): void {
+    this.router.routeReuseStrategy.shouldReuseRoute = () => false;
+    this.getTeamsList();
   }
 
+  getTeamsList()
+  {
+    this.list.getTeamsList()
+    .subscribe(res=>{
+      this.teamsList = res;
+    })
+  }
+  
 }

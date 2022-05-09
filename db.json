@@ -1,0 +1,50 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "General"
+    },
+    {
+      "id": 2,
+      "title": "Angular_Batch_2022_2"
+    },
+    {
+      "id": 3,
+      "title": "CSS_Batch_2022_2"
+    },
+    {
+      "id": 4,
+      "title": "General_Roadblocks_Batch_2022_2"
+    },
+    {
+      "id": 5,
+      "title": "Git_Batch_2022_2"
+    },
+    {
+      "id": 6,
+      "title": "HTML_Batch_2022_2"
+    },
+    {
+      "id": 7,
+      "title": "JavaScript_Batch_2022_2"
+    },
+    {
+      "id": 8,
+      "title": "Scrum-Fundamentals_Batch_2022_2"
+    },
+    {
+      "id": 9,
+      "title": "Technical_Roadblocks_Batch_2022_2"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

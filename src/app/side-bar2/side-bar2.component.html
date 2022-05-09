@@ -1,25 +1,17 @@
 <div class="wrapper">
     <div class="sidebar">
         <nav class="navbar navbar-light" id="secondaryNavbar">
-            <a id="heading">Teams</a>
+            <label id="heading">Teams</label>
             <a><i class="fa fa-filter" aria-hidden="true"></i></a>
         </nav>
        <hr>
        <div class="teamsList">
            <label id="smallLabel">Your Teams</label><br>
            <a >Rising Talent Batch_2022</a>
-           <div class="subList">
-               <a routerLink="/general" routerLinkActive="active">General</a><br>
-               <a >Angular_Batch_2022_2</a><br>
-               <a >CSS_Batch_2022_2</a><br>
-               <a >General_Roadblocks_Batch_2022_2</a><br>
-               <a >Git_Batch_2022_2</a><br>
-               <a >HTML_Batch_2022_2</a><br>
-               <a >JavaScript_Batch_2022_2</a><br>
-               <a >Scrum-Fundamentals_Batch_2022_2</a><br>
-               <a >Technical_Roadblocks_Batch_2022_2</a><br>
+           <div class="subList" *ngFor="let list  of teamsList">
+               <a routerLink="{{list.title}}" routerLinkActive="active">{{list.title}}</a><br>
            </div>
         </div>
     </div>
 </div>
-<app-main-component></app-main-component>
+<router-outlet></router-outlet>

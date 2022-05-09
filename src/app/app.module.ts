@@ -7,6 +7,8 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { SideBar1Component } from './side-bar1/side-bar1.component';
 import { SideBar2Component } from './side-bar2/side-bar2.component';
 import { MainComponentComponent } from './main-component/main-component.component';
+import { HttpClientModule } from '@angular/common/http';
+import { SideBar21Component } from './side-bar21/side-bar21.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,13 @@ import { MainComponentComponent } from './main-component/main-component.componen
     TopBarComponent,
     SideBar1Component,
     SideBar2Component,
-    MainComponentComponent
+    MainComponentComponent,
+    SideBar21Component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

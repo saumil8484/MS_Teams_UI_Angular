@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-main-component',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponentComponent implements OnInit {
 
-  constructor() { }
+  sectionName: string | null = null;
+
+  constructor(private route:ActivatedRoute) { }
 
   ngOnInit(): void {
+    this.sectionName = this.route.snapshot.paramMap.get('section');
   }
 
 }
