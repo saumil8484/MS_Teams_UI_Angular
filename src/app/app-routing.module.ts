@@ -5,7 +5,7 @@ import { SideBar2Component } from './side-bar2/side-bar2.component';
 import { SideBar21Component } from './side-bar21/side-bar21.component';
 
 const routes: Routes = [
-  { path:'teams', component: SideBar2Component, children: [{ path:':section', component: MainComponentComponent}]},
+  { path:'chats', component: SideBar2Component, children: [{ path:':section', component: MainComponentComponent}]},
   { path: ':functionality', component: SideBar21Component}
 ];
 

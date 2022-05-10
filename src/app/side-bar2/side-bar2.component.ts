@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { TeamsListService } from '../teams-list.service'
+import { TeamsListService } from '../teams-list.service';
 
 
 @Component({
@@ -15,10 +15,10 @@ export class SideBar2Component implements OnInit {
 
   ngOnInit(): void {
     this.router.routeReuseStrategy.shouldReuseRoute = () => false;
-    this.getTeamsList();
+    this.getList();
   }
 
-  getTeamsList()
+  getList()
   {
     this.list.getTeamsList()
     .subscribe(res=>{

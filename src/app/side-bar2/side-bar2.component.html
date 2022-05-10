@@ -1,13 +1,12 @@
 <div class="wrapper">
     <div class="sidebar">
         <nav class="navbar navbar-light" id="secondaryNavbar">
-            <label id="heading">Teams</label>
+            <label id="heading">Chats</label>
             <a><i class="fa fa-filter" aria-hidden="true"></i></a>
         </nav>
        <hr>
        <div class="teamsList">
-           <label id="smallLabel">Your Teams</label><br>
-           <a >Rising Talent Batch_2022</a>
+           <label id="smallLabel">Your Conversations</label><br>
            <div class="subList" *ngFor="let list  of teamsList">
                <a routerLink="{{list.title}}" routerLinkActive="active">{{list.title}}</a><br>
            </div>

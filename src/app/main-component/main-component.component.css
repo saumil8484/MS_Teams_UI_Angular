@@ -29,9 +29,36 @@ hr
 	border-top: 1px dotted #80007E;
 }
 
+#receivedMessage
+{
+    float: left ;
+    border-radius: 15px;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 290px;
+    margin-left: 180px;
+}
+
+#sentMessage
+{
+    float: right ;
+    border-radius: 15px;
+    background-color:  rgb(206, 186, 243);
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10px;
+    margin-right: 200px;
+}
+
+#showContent
+{
+    margin: 10px 10px 10px 10px;
+}
+
 #inputText
 {
-    margin: 128px 0px 0px 180px;
+    margin: 430px 0px 0px 180px;
     width: 612px;
     border:  #80007E;
     border-top-style: hidden;
