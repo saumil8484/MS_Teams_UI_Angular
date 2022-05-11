@@ -6,7 +6,6 @@
     width: 309px;
     height: 100%;
     padding: 20px 0;
-    /*box-shadow: 1px 0px rgb(218, 205, 240);*/
 }
 
 .sidebar a
@@ -43,9 +42,4 @@ hr
 #smallLabel
 {
     font-size: smaller;
-}
-
-.subList
-{
-    margin-left: 10px;
 }

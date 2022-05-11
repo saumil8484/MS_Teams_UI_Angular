@@ -88,30 +88,3 @@ hr
 {
     margin-left: 310px;
 }
-
-.boldMessage
-{
-    font-weight: 700;
-    margin-left: 360px;
-}
-
-.welcomeMessage
-{
-    margin-left: 330px;
-}
-
-#welcomeImage
-{
-    margin-left: 230px;
-}
-
-#welcomeButton
-{
-    margin-left: 240px;
-    font-size: small;
-}
-
-#welcomeButton1
-{
-    font-size: small;
-}
